@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "bunq",
+      "hasCanvas": false,
+      "bodyTextLen": 304,
+      "bodyTextHash": "f2054f87c3353f2ca141de0ce0aeea2696b9fef5c1b37ab863c164017f2270e3",
+      "bodyTextPrefix": "Bunq Bank Domov Čisté imanie 33 395,50 € Dnes ▼ -0,01 € Zaplatíť",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "bunq",
+      "hasCanvas": false,
+      "bodyTextLen": 304,
+      "bodyTextHash": "f2054f87c3353f2ca141de0ce0aeea2696b9fef5c1b37ab863c164017f2270e3",
+      "bodyTextPrefix": "Bunq Bank Domov Čisté imanie 33 395,50 € Dnes ▼ -0,01 € Zaplatíť",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
