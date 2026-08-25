@@ -146,19 +146,19 @@ function TabBar({ tab, onTab }: { tab: TabId; onTab: (id: TabId) => void }) {
             )}
             <span className="tab-ico" aria-hidden="true">
               {item.id === "home" && (
-                <Home size={22} strokeWidth={2.2} fill={active ? "currentColor" : "none"} />
+                <Home size={24} strokeWidth={2.35} fill={active ? "currentColor" : "none"} />
               )}
               {item.id === "cards" && (
-                <svg width="18" height="22" viewBox="0 0 18 22" fill="none">
-                  <rect x="2.2" y="1.5" width="13.6" height="19" rx="2.4" stroke="currentColor" strokeWidth="1.7" />
-                  <path d="M5 7.5h8M5 11h5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                <svg width="20" height="24" viewBox="0 0 18 22" fill={active ? "currentColor" : "none"}>
+                  <rect x="2.2" y="1.5" width="13.6" height="19" rx="2.4" stroke="currentColor" strokeWidth="1.9" />
+                  <path d="M5 7.5h8M5 11h5" stroke={active ? "#0b1220" : "currentColor"} strokeWidth="1.7" strokeLinecap="round" />
                 </svg>
               )}
-              {item.id === "save" && <PiggyBank size={22} strokeWidth={1.9} />}
-              {item.id === "stocks" && <TrendingUp size={22} strokeWidth={1.9} />}
+              {item.id === "save" && <PiggyBank size={24} strokeWidth={2.25} fill={active ? "currentColor" : "none"} />}
+              {item.id === "stocks" && <TrendingUp size={24} strokeWidth={2.35} />}
               {item.id === "crypto" && (
                 <span className="shield-wrap">
-                  <Shield size={22} strokeWidth={1.9} />
+                  <Shield size={24} strokeWidth={2.25} fill={active ? "currentColor" : "none"} />
                   <span className="btc-mark">B</span>
                 </span>
               )}
